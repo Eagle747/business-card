@@ -1,39 +1,36 @@
 body {
-    margin: 20px;
-    font-family:  Arial, Helvetica, sans-serif;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .avatar {
-    width: 125px;
-    height: 150px;
-    object-fit: cover;
+  width: 150px;
+  border-radius: 12px;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+  border: 1px solid #edae49;
+}
+
+.changeText:hover {
+  font-weight: 700;
+  color: #edae49;
+  transform: scale(1.1);
 }
 
 .card {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background: #003d5f;
-    color: #edae49;
-    box-shadow: 0 0 0 5px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #003d5f;
+  color: #edae49;
+  border: 6px solid #edae49;
 }
 
 p {
-    font-style: italic;
+  font-style: italic;
 }
-
-/*
-Stretch goals:
-Find other ways you can personalize 
-the design of your business card, e.g.:
-- change the border(s)
-- add border radius
-- shuffle the layout
-- shadows        🤯
-- hover effects  🤯🤯
-- animations     🤯🤯🤯
-*/
-
